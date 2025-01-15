@@ -1,10 +1,13 @@
+# Template: Docker Publish
+# Description: Docker template to publish applications with CI/CD
+
 name: publish
 on:
   push:
     branches: ["main"]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/${{ github.actor }}/react-counter:latest
+  IMAGE_NAME: ghcr.io/${{ github.actor }}/:latest
 jobs:
   publish:
     name: Publish Docker Image
