@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/${{ github.actor }}/default-repo:latest
+  IMAGE_NAME: ghcr.io/${{ github.actor }}/Coding:latest
 jobs:
   publish:
     name: Publish Docker Image
