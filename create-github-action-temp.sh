@@ -59,7 +59,7 @@ git push
 
 # Provide the link to the GitHub Actions page for tracking progress
 echo "You can track the progress of this action at the following link:"
-echo "https://github.com/edward/actions"
+echo "https://github.com///actions"
 
 # Clean up
 echo "Cleaning up temporary script..."
